@@ -33,6 +33,7 @@ Watir-WebDriver 是基于ruby 1.9.3的, 但是其也兼容更老的ruby版本。
 ========
 准备好了，那么打开irb。irb是Ruby的解释器，可以逐行解释ruby语句。那么在irb中逐行敲入下面的代码吧，看看接下来会发生什么神奇的事情:
 
+```ruby
 	require 'watir-webdriver'
 	b = Watir::Browser.new
 	b.goto 'bit.ly/watir-webdriver-demo'
@@ -41,7 +42,7 @@ Watir-WebDriver 是基于ruby 1.9.3的, 但是其也兼容更老的ruby版本。
 	b.select_list(:id => 'entry_1').selected? 'Ruby'
 	b.div(:class => 'ss-form-entry').button.click
 	b.text.include? 'Thank you'
-
+```
 看，是不是很简单。你已经不错了，喝杯茶犒劳自己一下吧。
 
 天哪，竟然没有Xpath选择符!
