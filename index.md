@@ -4,6 +4,7 @@ title: Watir-WebDriver官方中文主页
 tagline: Watir-WebDriver官方中文主页
 ---
 {% include JB/setup %}
+[watir-webdriver中文公开课](https://github.com/easonhan007/watir_wd_cn_video)，欢迎观看。
 <ul class="posts">
   <h3><a href="/watir-home">主页</a></h3>
   <h3><a href="/browser.html">浏览器</a></h3>
